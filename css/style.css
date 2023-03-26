@@ -8,7 +8,8 @@ body {
 #navbar {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100%;
+  min-width: 200px;
   background-color: #858585;
   position: fixed;
 }
