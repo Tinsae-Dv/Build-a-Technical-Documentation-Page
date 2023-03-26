@@ -12,3 +12,15 @@ body {
   background-color: #858585;
   position: fixed;
 }
+
+@media only screen and(max-width:600px){
+  #navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-link{
+    display: block;
+    margin: 10px 0;
+  }
+}
